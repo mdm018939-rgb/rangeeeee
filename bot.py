@@ -224,8 +224,8 @@ while True:
                     )
 
                     markup = telebot.types.InlineKeyboardMarkup()
-                    button1 = telebot.types.InlineKeyboardButton(text="🤖 Number Bot", url="https://t.me/SMSTOSMSBOT?start=start")
-                    button2 = telebot.types.InlineKeyboardButton(text="📬 Main channel", url="https://t.me/+LZrutZRrpbRkNDVl")
+                    button1 = telebot.types.InlineKeyboardButton(text="Get Number", url="https://t.me/SMSTOSMSBOT?start=start")
+                    button2 = telebot.types.InlineKeyboardButton(text="Join Channel", url="https://t.me/+LZrutZRrpbRkNDVl")
                     markup.row(button1, button2)
 
                     # জোড়-বেজোড় index অনুযায়ী পালাক্রমে বট বাছাই — প্রতিটা মেসেজ শুধু একটা বটই পাঠাবে
