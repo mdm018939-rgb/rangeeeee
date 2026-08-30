@@ -236,7 +236,7 @@ while True:
                     color3 = colors[(i + 2) % 3]
 
                     markup = telebot.types.InlineKeyboardMarkup()
-                    button1 = telebot.types.InlineKeyboardButton(text="Get Number", url="https://t.me/SMSTOSMSBOT?start=start", style=color1)
+                    button1 = telebot.types.InlineKeyboardButton(text="Get Number", url="https://t.me/SMSTOSMSBOT?start={safe_range}", style=color1)
                     button2 = telebot.types.InlineKeyboardButton(text="Join Channel", url="https://t.me/+LZrutZRrpbRkNDVl", style=color2)
                     button3 = telebot.types.InlineKeyboardButton(
                         text="Copy Range",
